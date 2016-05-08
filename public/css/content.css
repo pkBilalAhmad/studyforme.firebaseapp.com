@@ -1,0 +1,24 @@
+section .content, article .content{
+    margin: 5px;    
+    border-radius: 9px;
+    background-color: white;
+}
+.content h2{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content h2:hover{
+    background-color: white;
+    color: green;
+    box-shadow: 2px 2px 15px gray;
+}
+.content p{
+    padding: 20px;
+}
+#exempleerea{
+    padding: 10px;
+}

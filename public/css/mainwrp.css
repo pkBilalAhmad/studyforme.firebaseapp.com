@@ -1,0 +1,47 @@
+#wrp{
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 8px black, 0px 0px 15px darkblue, 0px 0px 15px blue;
+}
+#navdown{
+    width:20%;
+    float: left;    
+}
+#navdown li{
+    border-bottom: 1px solid grey;
+    background-color: black;
+    
+}
+#navdown li a:hover{
+    background-color: white;
+    color: black;
+}
+#wrp section{
+    width: 50%;
+    background-color: #e8e8e8;
+    height: 700px;
+    float: left;
+}
+#wrp article{
+    width: 30%;
+    float: left;
+    background-color: lemonchiffon;
+    height: 700px;
+}
+ul h3{
+    text-align: center;
+}
+
+#navdown li a{
+    padding: 6px 16px;
+    display: block;    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.active{
+    
+    background-color: green; 
+}

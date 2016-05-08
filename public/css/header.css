@@ -1,0 +1,37 @@
+body{
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+    letter-spacing: 1px;
+    overflow: auto;
+    transition: 0.4s;    
+}
+header div{
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+        
+    
+}
+div h1{
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0px 0px 25px blue, 0px 0px 5px darkblue;
+    font-style: italic;
+}
+#headtext{
+   max-width: 300px;
+    float: left;
+    margin: 10px;
+    margin-top: 5px;
+    background-color: lawngreen;
+}
+#headtext:hover{
+    background-color: white;
+    box-shadow: 1px 1px 15px black;
+    transition: 0.3s;
+    
+}

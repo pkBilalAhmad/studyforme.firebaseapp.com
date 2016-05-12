@@ -27,4 +27,16 @@ $(document).ready(function(){
         $("#showmenu").hide();
     });
 });
+$(document).ready(function(){
+    $(".border-radius").click(function(){
+    $("#hidenav").toggle("slow");
+    $("#navtop").toggle("slow");
+});    
+});
+
+
+
+
+
+
 

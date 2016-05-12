@@ -1,0 +1,40 @@
+
+#hidenav{
+    background-color: snow;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: none;
+}
+#hideul{
+    list-style-type: none;
+    overflow: auto;
+    width: 60%;
+    margin: auto;
+    padding: 0px;
+    background-color: snow;
+    
+}
+.hideli{
+    float: left;
+    
+}
+.hideli a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 30px;
+    color: black;
+    
+}
+.hideli a:hover{
+    background-color: darkblue;
+    color: white;
+}
+.border-radius{
+    border-radius: 15px;
+}
+@media only screen and (max-width: 500px){
+    .hideli{
+        float: none;
+    }
+    
+}

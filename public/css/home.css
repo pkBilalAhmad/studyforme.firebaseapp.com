@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgreen;
+    
+}
+header{
+    
+    background-color: black;
+    overflow: auto;
+    padding: 20px;
+    
+}
+#sitename{
+    color: white;
+    font-size: 300%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+section{
+    height: 600px;
+    background-color: black;
+}
+header div{
+    width: 80%;
+    margin: auto;   
+    color: black;
+    text-shadow: 1px 1px 15px white;
+}
+.urduh{
+    font-family: "jameel noori nastaleeq";
+    direction: rtl;
+    float: right;
+    font-size: 200%;
+    color: white;
+}
+#names{
+    width: 20%;
+    background-color: chocolate;
+}
+.coname{
+    width: 80%;
+    margin: auto;
+    
+}
+.tutname{
+    border: 1px solid gray;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    
+}
+.tutname h1{
+    padding: 20px;
+    
+}
+#sitename{
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 30px;
+}

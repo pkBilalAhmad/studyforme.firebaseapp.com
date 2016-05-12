@@ -1,12 +1,16 @@
 nav#top{
     background-color: black;
-    color: white;
     
+    color: white;
+    position: relative;
+    top: 0px;
+    overflow: auto;
 }
 nav div{
     width: 80%;
     margin: auto;
     background-color: black;
+    
 }
 #top div ul{
     list-style-type: none;
